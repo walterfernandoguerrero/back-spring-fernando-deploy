@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("walter")
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins={"https://fernando-front-deploy.web.app/"})
 public class datosController {
     @Autowired
     private IDatasService datosServ; //mi variable 
